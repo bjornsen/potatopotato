@@ -1,0 +1,4 @@
+name: /
+markdown: redcarpet
+pygments: true
+highlighter: pygments

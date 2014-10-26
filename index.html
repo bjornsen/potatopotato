@@ -1,0 +1,8 @@
+---
+layout: landing
+title: potatopotato
+---
+{% assign potato-array = "POTATOPOTATO" | split:"" %}
+{% for char in potato-array %}
+  <div class="large-1 medium-2 small-6 columns"><h1 class="front-letters {{ char }}">{{ char }}</h1></div>
+{% endfor %}
